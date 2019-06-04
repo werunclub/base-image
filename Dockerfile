@@ -9,4 +9,4 @@ RUN apk update \
 RUN apk update && \
     apk add --no-cache curl ca-certificates && \
     update-ca-certificates && \
-    rm -rf /var/cache/apk/
+    rm -rf /var/cache/apk/*
